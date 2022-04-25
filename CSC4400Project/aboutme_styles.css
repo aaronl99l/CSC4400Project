@@ -1,0 +1,86 @@
+body{
+	margin: 0px;
+	background-color: rgb(214, 118, 31);
+}
+
+#tickets_field{
+	height: 800px;
+	width: 100%;
+	margin-left: 0px;
+	text-align: center;
+	background-color: rgb(240, 178, 122);
+}
+
+#container{
+	display: flex;
+	flex: nowrap;
+	flex-direction: row;
+	
+}
+
+#subtext{
+	font-family: helvetica;
+	font-size: 20px;
+	font-weight: bold;
+}
+#logo_text{
+	font-family: helvetica;
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	padding-left: 20px;
+
+}
+
+#logo_space{
+	border-style: none none solid none;
+	border-width: 2px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#passive_text{
+	padding: 70px 0;
+    text-align: center;
+	font-family: helvetica;
+	font-size: 15px;
+}
+
+#emp_info_field{
+    margin-left: 40%;
+    margin-right: 40%;
+    display: flex;
+    flex: nowrap;
+    flex-direction: column;
+    padding-left: 60px;
+}
+
+.font{
+	font-family: helvetica;
+	font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 2px;
+        margin-left: 0px;
+        text-align: left;
+}
+
+.navbar{
+	display: flex;
+	flex: nowrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#home{
+	margin-top: 20px;
+	padding-right: 20px;
+}
+
+.txt_field{
+    width: 75%;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: white;
+    border-color: black;
+    color: black;
+}
